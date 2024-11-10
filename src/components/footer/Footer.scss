@@ -1,0 +1,93 @@
+.footer{
+ width: 100%;
+ background-color: rgb(0, 0, 0); 
+ color: white;
+ padding: 80px 135px 124px 135px;
+}
+.info{
+    width: 1170px;
+    height: 236px;
+    display: flex;
+    gap: 87px;
+    margin: 0 auto  ;
+}
+.info1{
+    width: 217px;
+    height: 188px;
+
+    h5{
+        margin: 24px 0 24px;
+    }
+    p{
+        margin-bottom: 20px;
+    }
+    .ali{
+        border:1px solid white;
+        padding:8px;
+        border-radius: 5px;
+        input{
+            background-color: black;
+            border: none;
+        }
+    }
+}
+.info2{
+    width: 175px;
+    height: 180px;
+
+    p{
+        margin: 24px 0 24px;
+    }
+}
+.info3{
+    width: 123px;
+    height: 236px;
+
+    p{
+        margin: 20px 0 20px;
+    }
+}
+.info4{
+    width: 109px;
+    height: 196px;
+
+    p{
+        margin: 20px 0 20px;
+    }
+}
+.info5{
+    width: 198px;
+    height: 210px;
+    
+    p{
+        margin: 20px 0 20px;
+    }
+    .svgs{
+        display: flex;
+        gap: 12px;
+
+    .applay{
+        display: grid;
+        gap: 10px;
+    }
+    }
+    .sotsety{
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+    }
+}
+.a1{
+    border-top: 1px solid rgb(52, 51, 51);
+    width: 1440px;
+    position: relative;
+    left: -135px;
+    top: 80px;
+
+    p{
+margin: 0 auto;
+color: rgb(72, 70, 70);
+position: relative;
+top: 15px;
+    }
+}

@@ -1,0 +1,126 @@
+.main{
+margin-bottom: 194px;
+.main-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px auto 128px;
+    margin-left: 80px;
+
+    p{
+        /* Title/16PX Regular */
+color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+    }
+
+    
+}
+.product{
+    display: flex;
+justify-content: space-between;
+
+.addp{
+    display: flex;
+    width: 180px;
+}
+    img{
+        width: 48px;
+        height: 42px; 
+        // position: absolute;
+    }
+        input{
+            width: 48px;
+            height: 32px;
+            border-radius: 5px;
+            text-align: center;
+        }
+    }
+.b1{
+    margin: 40px 0 80px;
+    display: flex;
+    justify-content: space-between;
+
+    button{
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: white;   
+        border-radius: 5px; 
+        
+    }
+    
+}
+// .product-btn{
+//     background-color:  black;
+//     color:  white;
+//     padding: 5px;
+// }
+
+.main-bottom{
+    display: flex;
+    justify-content: space-between;
+
+    .ali{
+        display: flex;
+        gap: 16px;
+        
+            button{
+                background-color: red;
+                color: white;
+                padding: 11px 22px;
+                border: none;
+                border-radius: 4px;
+                height: 47px;
+                
+            }
+            button:hover{
+                background-color: black;
+             }
+            input{
+                border-radius: 4px;
+                padding: 10px 20px;
+                height: 47px;
+            }
+        }
+    
+    .b-right{
+        width: 470px;
+        height: 324px;
+        border: 3px solid black;
+        padding: 20px;
+
+        h3{
+            margin: 0 0 24px 0;
+        }
+
+        .sub{
+            display: flex;
+            justify-content: space-between;
+        }
+      
+      .ship{
+        display: flex;
+        justify-content: space-between;
+      }
+
+     .total{
+        display: flex;
+        justify-content: space-between;
+     }
+     button{
+        width: 200px;
+        background-color: red;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        margin-left:120px ;
+     }
+     button:hover{
+        background-color: black;
+     }
+    }
+}}
