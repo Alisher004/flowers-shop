@@ -9,9 +9,9 @@ import { useSelector } from 'react-redux'
 import acount from "../../assets/svg/acount.svg"
 
 function Header() {
-  const {t,i18n} = useTranslation()
- const {items} = useSelector((state) => state.wishlist)
- const {cartItem} = useSelector ((state) => state.carts)
+  const { t, i18n } = useTranslation()
+  const { items } = useSelector((state) => state.wishlist)
+  const { cartItem } = useSelector((state) => state.carts)
   const handleChange = (event) => {
     const lng = event.target.value;
     i18n.changeLanguage(lng)
@@ -48,28 +48,28 @@ function Header() {
         </div>
         <div className='header-right'>
           <div className='search'>
-            <input type="text" placeholder='What are you looking for?'/>
+            <input type="text" placeholder='What are you looking for?' />
             <img src={poisk} alt="" />
           </div>
           <div className='icons'>
             <Link to={`/listcom`}>
-            <div className='icon'>
-            <img src={like} alt="" />
-            <div className='count'>{items.length}</div>
-            </div>
+              <div className='icon'>
+                <img src={like} alt="" />
+                <div className='count'>{items.length}</div>
+              </div>
             </Link>
 
             <Link to={`/cartcom`}>
-            <div className='icon'>
-            <img src={cart} alt="" />
-            <div className='count'>{cartItem.length}</div>
-            </div>
+              <div className='icon'>
+                <img src={cart} alt="" />
+                <div className='count'>{cartItem.length}</div>
+              </div>
             </Link>
 
             <Link to={`/acountcom`}>
-            <div className='q1'>
-           <img src={acount} alt="" />
-            </div>
+              <div className='q1'>
+                <img src={acount} alt="" />
+              </div>
             </Link>
           </div>
         </div>

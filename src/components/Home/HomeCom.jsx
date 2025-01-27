@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Banner from '../Banner/Banner'
 import Product from '../Product/Product'
-import apiClient from '../../axios/apiClient'
 import "./Home.scss"
 import axios from 'axios'
 
@@ -29,10 +28,12 @@ useEffect(() => {
   return (
     <div>
     <Banner />
-    <div className='ali'>{
-    products.map((item) =>(
+    <div className='ali'>
+      {
+       products.slice(0, 8).map((item) =>(
       <Product key={item.id} data={item}/>
-    ))}</div>
+      ))}
+    </div>
     </div>
   )
 }
